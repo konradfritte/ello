@@ -8,13 +8,15 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component';
-import { DiscoverComponent } from './components/discover/discover.component'
+import { DiscoverComponent } from './components/discover/discover.component';
+import { LikesComponent } from './components/likes/likes.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TabNavigationComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    LikesComponent
   ],
   imports: [
     BrowserModule,
