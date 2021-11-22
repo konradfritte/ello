@@ -9,14 +9,16 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component';
 import { DiscoverComponent } from './components/discover/discover.component';
-import { LikesComponent } from './components/likes/likes.component'
+import { LikesComponent } from './components/likes/likes.component';
+import { MessagesComponent } from './components/messages/messages.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TabNavigationComponent,
     DiscoverComponent,
-    LikesComponent
+    LikesComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
