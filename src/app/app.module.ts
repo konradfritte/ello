@@ -7,12 +7,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component'
+import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component';
+import { DiscoverComponent } from './components/discover/discover.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabNavigationComponent
+    TabNavigationComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,
