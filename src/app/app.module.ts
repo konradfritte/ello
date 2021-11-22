@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MatButtonModule } from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTabsModule } from '@angular/material/tabs';
@@ -23,8 +25,10 @@ import { MessagesComponent } from './components/messages/messages.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSliderModule,
+    MatButtonModule,
+    MatCardModule,
     MatIconModule,
+    MatSliderModule,
     MatTabsModule,
     BrowserAnimationsModule,
 

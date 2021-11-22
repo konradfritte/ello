@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
+import { DiscoverComponent } from './components/discover/discover.component';
+import { LikesComponent } from './components/likes/likes.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 
 const routes: Routes = [
   {
     path: 'discover',
-    component: AppComponent
+    component: DiscoverComponent
   },
   {
     path: 'likes',
-    component: AppComponent
+    component: LikesComponent
   },
   {
     path: 'messages',
-    component: AppComponent
+    component: MessagesComponent
   },
   {
     path: '**',
