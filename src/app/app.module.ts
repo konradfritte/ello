@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component'
 
@@ -16,7 +18,10 @@ import { TabNavigationComponent } from './components/tab-navigation/tab-navigati
     BrowserModule,
     AppRoutingModule,
     MatSliderModule,
-    BrowserAnimationsModule
+    MatIconModule,
+    MatTabsModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
