@@ -1,11 +1,17 @@
 <nav mat-tab-nav-bar>
-  <a mat-tab-link>
+  <a mat-tab-link
+    [routerLink]="'discover'"
+  >
     <mat-icon>search</mat-icon>
   </a>
-  <a mat-tab-link>
+  <a mat-tab-link
+    [routerLink]="'likes'"
+  >
     <mat-icon>favorite_border</mat-icon>
   </a>
-  <a mat-tab-link>
+  <a mat-tab-link
+    [routerLink]="'messages'"
+  >
     <mat-icon>chat_bubble_outline</mat-icon>
   </a>
 </nav>
