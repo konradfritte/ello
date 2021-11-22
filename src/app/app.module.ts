@@ -12,7 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabNavigationComponent } from './components/tab-navigation/tab-navigation.component';
 import { DiscoverComponent } from './components/discover/discover.component';
 import { LikesComponent } from './components/likes/likes.component';
-import { MessagesComponent } from './components/messages/messages.component'
+import { MessagesComponent } from './components/messages/messages.component';
+import { ProfileComponent } from './components/profile/profile.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MessagesComponent } from './components/messages/messages.component'
     TabNavigationComponent,
     DiscoverComponent,
     LikesComponent,
-    MessagesComponent
+    MessagesComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
