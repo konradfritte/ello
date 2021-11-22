@@ -1,19 +1,32 @@
-<div
-  (click)="goToProfile()"
-  class="match-preview"
-  >
-  <mat-card>
-    <img mat-card-image src="https://profile-images.xing.com/images/4db944638f45924643b06c46127399b0-1/konrad-fritsche.1024x1024.jpg">
-    <mat-card-title>Konrad</mat-card-title>
-    <mat-card-subtitle>23, Leipzig</mat-card-subtitle>
-    <mat-card-content>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-fab></button>
-    </mat-card-actions>
-  </mat-card>
-  <div class=overlay></div>
+<div class="discovery">
+  <div class="match-preview">
+    <mat-card>
+      <img
+        mat-card-image
+        src="https://profile-images.xing.com/images/4db944638f45924643b06c46127399b0-1/konrad-fritsche.1024x1024.jpg"
+      />
+      <mat-card-title>Konrad</mat-card-title>
+      <mat-card-subtitle>23, Leipzig</mat-card-subtitle>
+      <mat-card-content>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </mat-card-content>
+    </mat-card>
+    <div (click)="goToProfile()" class="overlay"></div>
+    <div class="ctas">
+      <button mat-fab aria-label="like"><mat-icon>clear</mat-icon></button>
+      <button mat-fab aria-label="dislike">
+        <mat-icon>favorite_outline</mat-icon>
+      </button>
+    </div>
+  </div>
 </div>
